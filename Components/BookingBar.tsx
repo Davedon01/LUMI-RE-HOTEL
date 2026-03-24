@@ -47,8 +47,8 @@ export default function BookingBar() {
           </div>
 
           {/* Search Button */}
-          <Link href="/booking">
-            <button className="flex w-full items-center justify-center gap-2 rounded-2xl bg-slate-900 py-4 text-sm font-bold text-white transition-all hover:bg-slate-800 hover:shadow-lg active:scale-95 lg:w-auto lg:px-10 dark:bg-blue-600 dark:hover:bg-blue-500">
+          <Link href="/rooms">
+            <button className="flex w-full items-center justify-center gap-2 rounded-2xl bg-slate-900 px-4 py-4 text-sm font-bold text-white transition-all hover:bg-slate-800 hover:shadow-lg active:scale-95 lg:w-auto lg:px-10 dark:bg-blue-600 dark:hover:bg-blue-500">
             <Search size={18} />
             Check Availability
           </button>

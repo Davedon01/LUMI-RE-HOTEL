@@ -77,7 +77,7 @@ export default function Hero() {
             </p>
 
             <div className="flex flex-col sm:flex-row gap-5">
-              <Link href="/booking">
+              <Link href="/rooms">
               <button className="rounded-full bg-blue-600 px-4 py-4 sm:px-8 sm:py-4 font-bold text-white shadow-2xl transition-all hover:bg-blue-500 hover:scale-105 active:scale-95">
                 Reserve Your Stay
               </button>

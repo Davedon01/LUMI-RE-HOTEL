@@ -11,6 +11,7 @@ import img3 from '../../public/Executive Garden Room.webp';
 import img4 from '../../public/Junior-Urban-Suite.jpg';
 import img5 from '../../public/Royal Penthouse.jpg';
 import img6 from '../../public/Serene Pool Villa.jpg';
+import Link from 'next/link';
 
 const ROOMS = [
   { id: 1, name: "Deluxe Ocean Suite", price: 450, size: "55m²", guests: 2, bed: "King Bed", image: img1, category: "Suite" },
@@ -129,9 +130,11 @@ export default function RoomsPage() {
                       </div>
                     </div>
 
-                    <button className="flex items-center gap-2 text-[10px] font-bold uppercase tracking-widest text-slate-900 dark:text-slate-400 group-hover:gap-4 transition-all duration-300">
+                    <Link href={`/rooms/${room.id}`}>
+                      <button className="flex items-center gap-2 text-[10px] font-bold uppercase tracking-widest text-slate-900 dark:text-slate-400 group-hover:gap-4 transition-all duration-300">
                       Explore This Suite <ArrowRight size={16} className="text-blue-500" />
                     </button>
+                    </Link>
                   </div>
                 </div>
               ))
