@@ -35,9 +35,9 @@ export default function Footer() {
           <div>
             <h4 className="mb-6 text-xs font-bold uppercase tracking-[0.2em] text-white">Explore</h4>
             <ul className="space-y-4 text-sm">
-              <li><FooterLink href="#rooms">Rooms & Suites</FooterLink></li>
-              <li><FooterLink href="#dining">Dining</FooterLink></li>
-              <li><FooterLink href="#spa">Wellness & Spa</FooterLink></li>
+              <li><FooterLink href="/rooms">Rooms & Suites</FooterLink></li>
+              <li><FooterLink href="/amenities">Dining</FooterLink></li>
+              <li><FooterLink href="/amenities">Wellness & Spa</FooterLink></li>
             </ul>
           </div>
 
@@ -74,8 +74,8 @@ export default function Footer() {
               © 2026 Lumière Hotel Group. All rights reserved.
             </p>
             <div className="flex gap-8 text-xs font-medium uppercase tracking-widest">
-              <a href="#" className="hover:text-white transition-colors">Privacy Policy</a>
-              <a href="#" className="hover:text-white transition-colors">Terms of Service</a>
+              <a href="/policy" className="hover:text-white transition-colors">Privacy Policy</a>
+              <a href="/terms" className="hover:text-white transition-colors">Terms of Service</a>
             </div>
           </div>
         </div>
